@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avancebpo.solucionesoftalmicas.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:weightSum="1"
+        android:id="@+id/layoutlist">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="50dp"
+            android:id="@+id/imageView4"
+            android:src="@drawable/logo"
+            android:contentDescription="@string/desc_logo" />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/title_activity_sol_cita"
+            android:id="@+id/buttonSolCita"
+            android:drawableLeft="@drawable/clipboard99"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <View android:id="@+id/divider1"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/titPerfProf"
+            android:id="@+id/buttonPerfProf"
+            android:drawableLeft="@drawable/profile8"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <View android:id="@+id/divider2"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/title_activity_especialidades"
+            android:id="@+id/buttonEspec"
+            android:drawableLeft="@drawable/been"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp" />
+
+        <View android:id="@+id/divider3"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

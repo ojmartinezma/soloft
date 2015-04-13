@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avancebpo.solucionesoftalmicas.EspecialidadesActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/logo_secundario_altura"
+            android:src="@drawable/logo"
+            android:id="@+id/imageView4"
+            android:theme="@style/logo_secundario" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/title_activity_especialidades"
+            android:id="@+id/textView"
+            android:background="@color/azul_avance"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/ScrollView2"
+            android:paddingLeft="30dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:longClickable="true"
+                android:showDividers="beginning|end">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/tirCirugia"
+                    android:id="@+id/textView4"
+                    android:textColor="@color/azul_avance"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textIsSelectable="false" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView"
+                    android:src="@drawable/cirugia"
+                    android:scaleType="fitStart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/textEspCirugia"
+                    android:id="@+id/textView7" />
+
+                <View android:id="@+id/divider5"
+                    android:background="@drawable/whitegradient"
+                    android:layout_width="fill_parent"
+                    android:paddingBottom="10dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="@android:style/TextAppearance.Medium"
+                    android:text="@string/titleTratamientos"
+                    android:id="@+id/textView5"
+                    android:textStyle="bold"
+                    android:textColor="@color/azul_avance"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/tratamientos"
+                    android:scaleType="fitStart" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/textEspTratamiento"
+                    android:id="@+id/textView8" />
+
+                <View android:id="@+id/divider6"
+                    android:background="@drawable/whitegradient"
+                    android:layout_width="fill_parent"
+                    android:paddingBottom="10dp"
+                    android:layout_height="1dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/titleOtro"
+                    android:id="@+id/textView6"
+                    android:textStyle="bold"
+                    android:textSize="30sp"
+                    android:textColor="@color/azul_avance" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView3"
+                    android:src="@drawable/otros"
+                    android:scaleType="fitStart"  />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/textEspOtros"
+                    android:id="@+id/textView9" />
+
+                <View android:id="@+id/divider7"
+                    android:background="@drawable/whitegradient"
+                    android:layout_width="fill_parent"
+                    android:paddingBottom="10dp"
+                    android:layout_height="1dp" />
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+</RelativeLayout>

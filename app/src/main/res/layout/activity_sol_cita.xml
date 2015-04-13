@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.avancebpo.solucionesoftalmicas.SolCitaActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/logo_secundario_altura"
+            android:src="@drawable/logo"
+            android:id="@+id/imageView4"
+            android:theme="@style/logo_secundario"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/title_activity_sol_cita"
+            android:id="@+id/textView"
+            android:background="@color/azul_avance"
+            android:paddingLeft="10dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/sol_auto"
+            android:id="@+id/buttonSS"
+            android:drawableLeft="@drawable/earth205"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp" />
+
+        <View android:id="@+id/divider4"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/sol_chattwnel"
+            android:id="@+id/buttonChat"
+            android:drawableLeft="@drawable/chat75"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp" />
+
+        <View android:id="@+id/divider5"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:text="@string/llamar_solcita"
+            android:id="@+id/buttonCall"
+            android:drawableLeft="@drawable/phone372"
+            android:drawableRight="@drawable/pressed_changeimage"
+            android:background="@drawable/pressed_change"
+            android:textStyle="bold"
+            android:paddingLeft="30dp" />
+
+        <View android:id="@+id/divider6"
+            android:background="@drawable/whitegradient"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp" />
+
+    </LinearLayout>
+</RelativeLayout>

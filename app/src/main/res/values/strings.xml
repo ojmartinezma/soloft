@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Soluciones Oftálmicas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Opciones</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_especialidades">Especialidades</string>
+    <string name="title_activity_perfil_prof">Dr. Jorge Gómez</string>
+    <string name="StringPerfProf">Perfil Profesional</string>
+    <string name="textPerfProf">Medico oftalmólogo graduado de la Pontificia Universidad Javeriana de Bogotá – Colombia. Con postgrado en Residencia de Oftalmología de la Fundación Oftalmológica de Santander – FOS-CAL. Especialista en Fellowship en Retina y Vítreo, Clínica de Retina y Vítreo del Hospital General de las Fuerzas Armadas No. 1 de Quito – Ecuador. Actualmente se desempeña como oftalmólogo especialista en retina médica y quirúrgica de la Fundación Santa Fé de Bogotá y en su práctica privada.\n\nMiembro de la junta directiva de la Asociación Colombiana de Retina y Vítreo (ACOREV)\n\nMiembro Adjunto de la Sociedad Colombiana de Oftalmología.\n\nMiembro de la Academia Americana de Oftalmología.\n\nMiembro de número de la Asociación Colombiana de Retina y vítreo (ACOREV) en calidad de subespecialista en retina Médico-Quirúrgica.\n\nEl Dr. Jorge Gómez se ha desempeñado como Instructor Asistente en la Fundación Universitaria de Ciencias de la Salud. (Hospital de San José).\n\nProfesor clínico de la Universidad de la Sabana.\n\nDocente de posgrado de oftalmología Pontificia Universidad Javeriana (Retinólogo)\n\nCofundador de SOLUCIONES OFTALMICAS DIGITALES, compañía dedicada a la TELEOFTALMOLOGIA siendo este el proceso por medio del cual se pueden diagnosticar, evaluar, seguir y en algunos casos incluso, tratar problemas oculares en situaciones en las cuales el paciente y el especialista se encuentran ubicados en áreas geográficas diferentes.</string>
+    <string name="title_activity_sol_cita">Solicite su cita</string>
+    <string name="sol_auto">Autoagendamiento</string>
+    <string name="solicite_telf">Telefonicamente</string>
+    <string name="solicite_chat">Chat en línea</string>
+    <string name="llamar_solcita">Llamar</string>
+    <string name="sol_chattwnel">Abrir chat</string>
+    <string name="title_activity_auto_ag">Autoagendamiento</string>
+    <string name="titPerfProf">Perfil Profesional</string>
+    <string name="tirCirugia">Cirugía</string>
+    <string name="titleOtro">Otros</string>
+    <string name="titleTratamientos">Tratamientos</string>
+    <string name="textEspCirugia">-Vítreo-Retiniana\n-Retinopatía Diabética\n-Edema Macular\n-Desprendimiento de Retina\n-Agujeros Maculares\n-Membranas Epirretinianas</string>
+    <string name="textEspTratamiento">-Retinopatía de la Prematuridad\n-Degeneración Macular\n-Enfermedades Sistémicas\n-Procedimientos Diagnósticos\n-Fotocoagulación laser\n-Tamizaje Oftalmológico</string>
+    <string name="textEspOtros">-Consulta Oftalmológica especializada\n-Consulta de Optometría y lentes de contacto\n-Cirugía de chalazión\n-Cirugía oftalmológica de Pterigión\n-Cirugía de Catarata</string>
+    <string name="desc_logo">Logo</string>
+    <string name="logo_sec_ancho">wrap_content</string>
+    <string name="title_activity_splash">SplashActivity</string>
+</resources>
